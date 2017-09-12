@@ -4,6 +4,11 @@
     "description": "Syntax highlighter for Asciidots",
     "version": "1.0.0",
     "publisher": "ddorn",
+    "repository": {
+        "type": "github", 
+        "url": "https://github.com/ddorn/vs-asciidots"
+    },
+    "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.16.0"
     },
