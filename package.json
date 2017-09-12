@@ -1,0 +1,35 @@
+{
+    "name": "vs-asciidots",
+    "displayName": "Asciidots Support",
+    "description": "Syntax highlighter for Asciidots",
+    "version": "1.0.0",
+    "publisher": "ddorn",
+    "engines": {
+        "vscode": "^1.16.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "dots",
+                "aliases": [
+                    "Asciidots",
+                    "dots"
+                ],
+                "extensions": [
+                    ".dots"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "dots",
+                "scopeName": "source.dots",
+                "path": "./syntaxes/dots.tmLanguage.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,77 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Asciidots",
+	"fileTypes": [".dots"],
+	"scopeName": "source.dots",
+	"patterns": [
+		{
+			"name": "keyword.control.dots",
+			"match": "[*~!]"
+		},
+		{
+			"match": "(\\[|\\{)([GL*\/+\\-%^&ox><=!])(\\]|\\})",
+			"captures": {
+				"1": {
+					"name": "comment"
+				},
+				"2": {
+					"name": "variable.parameter"
+				},
+				"3": {
+					"name": "comment"
+				}
+			}
+
+		}, 
+		{
+			"match": "(%\\$)([A-Za-z_]+)",
+			"captures": {
+				"1": {"name": "keyword.control"},
+				"2": {"name": "support.function"}
+			}
+		}, 
+		{
+			"match": "(%\\^)([A-Za-z])",
+			"captures": {
+				"1": {"name": "keyword.control"},
+				"2": {"name": "entity.name.class"}
+			}
+		},
+		{
+			"match": "(\\[|\\{)([^GL*\/+\\-%^&ox><=!])(\\]|\\})",
+			"name": "keyword.other"
+
+		},
+		{
+			"name": "comment.line",
+			"begin": "``",
+			"end": "\\n"
+		},
+		{
+			"name": "constant.numeric",
+			"match": "\\d"
+		},
+		{
+			"name": "entity.name.function",
+			"match": "#|\\$|@|&"
+		},
+		{
+			"match": "(%!)(.*?) ([A-Za-z])",
+			"captures": {
+				"1": {
+					"name": "keyword.other"
+				},
+				"2": {
+					"name": "support.function.builtin"
+				},
+				"3": {
+					"name": "entity.name.function"
+				}
+			}
+		},
+		{
+			"name": "string",
+			"match": "[A-Za-z'\"]"
+		}
+	]	
+}
