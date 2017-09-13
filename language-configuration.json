@@ -12,10 +12,6 @@
     // Usually it's really annoying
     "autoClosingPairs": [],
     // symbols that that can be used to surround a selection
-    "surroundingPairs": [
-        ["{", "}"],
-        ["[", "]"],
-        ["\"", "\""],
-        ["'", "'"]
-    ]
+    // with the insert cursor mode, it'sawfull
+    "surroundingPairs": []
 }
