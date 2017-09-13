@@ -3,7 +3,8 @@ All notable changes to the "vs-asciidots" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [2.0.1]
+- Change compatibility indication
 
 ## [2.0.0] 2017-09-13
 - Changing version number, just because.
