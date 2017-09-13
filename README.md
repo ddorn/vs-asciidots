@@ -10,6 +10,8 @@ With the [Flatland-Monokai](https://marketplace.visualstudio.com/items?itemName=
 
 ![Overview](images/overview.png)
 
+You may like this extenstion for and [overtype](https://marketplace.visualstudio.com/items?itemName=adammaras.overtype) mode for the cursor. 
+
 
 ## Requirements
 
@@ -21,9 +23,7 @@ None... for now !
 
 ## Release Notes
 
-### 1.0.0
-
-Initial release of Asciidots Support
+See the [changelog](CHANGELOG.md)
 
 -----------------------------------
 

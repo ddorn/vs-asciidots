@@ -71,7 +71,11 @@
 		},
 		{
 			"name": "string",
-			"match": "[A-Za-z'\"]"
+			"match": "[A-Za-uw-z'\"]" 
+		},
+		{
+			"name": "support.function",
+			"match": "[<>v^]"
 		}
 	]	
 }

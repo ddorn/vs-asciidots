@@ -3,6 +3,10 @@ All notable changes to the "vs-asciidots" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.0.5]
+- Removed string coloration for `v`
+- Added coloration for flows chars `>`, `<`, `v` and `^`.
+
 ## [2.0.4]
 - Remove surronding option
 
