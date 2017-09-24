@@ -1,16 +1,18 @@
 # Change Log
-All notable changes to the "vs-asciidots" extension will be documented in this file.
+All notable changes to the "vs-asciidots" extension will hopefully be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [2.0.6] 2017-09-24
+- fixed typo in readme
+- added the graphical debugger in related projects
 
-## [2.0.5]
+## [2.0.5] 2017-09-13
 - Removed string coloration for `v`
 - Added coloration for flows chars `>`, `<`, `v` and `^`.
 
-## [2.0.4]
+## [2.0.4] 2017-09-13
 - Remove surronding option
 
-## [2.0.1]
+## [2.0.1] 2017-09-13
 - Change compatibility indication
 
 ## [2.0.0] 2017-09-13
