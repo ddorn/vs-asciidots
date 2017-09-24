@@ -1,3 +1,6 @@
+![instals](https://vsmarketplacebadge.apphb.com/installs/ddorn.vs-asciidots.svg)
+
+
 # Asciidots Support
 
 
